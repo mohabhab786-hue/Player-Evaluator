@@ -1,0 +1,398 @@
+[
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 7,
+            "Adaptability": 9,
+            "Competitiveness": 7,
+            "Coachability": 6,
+            "Leadership": 10,
+            "Role Clarity": 8
+        },
+        "sr": 80.0,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 9,
+            "Adaptability": 8,
+            "Competitiveness": 7,
+            "Coachability": 6,
+            "Leadership": 8,
+            "Role Clarity": 7
+        },
+        "sr": 77.5,
+        "classification": "Strong Prospect",
+        "recommendation": "Player is a strong prospect with room for improvement."
+    },
+    {
+        "name": "AB",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 8,
+            "Decision Making": 7,
+            "Pressure Handling": 9,
+            "Adaptability": 9,
+            "Competitiveness": 7,
+            "Coachability": 9,
+            "Leadership": 9,
+            "Role Clarity": 9
+        },
+        "sr": 83.75,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "AB",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 8,
+            "Decision Making": 7,
+            "Pressure Handling": 9,
+            "Adaptability": 9,
+            "Competitiveness": 7,
+            "Coachability": 9,
+            "Leadership": 9,
+            "Role Clarity": 9
+        },
+        "sr": 83.75,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "Ab",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 9,
+            "Pressure Handling": 8,
+            "Adaptability": 9,
+            "Competitiveness": 8,
+            "Coachability": 9,
+            "Leadership": 8,
+            "Role Clarity": 9
+        },
+        "sr": 86.25,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "AB",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 7,
+            "Pressure Handling": 9,
+            "Adaptability": 10,
+            "Competitiveness": 6,
+            "Coachability": 7,
+            "Leadership": 8,
+            "Role Clarity": 9
+        },
+        "sr": 81.25,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 9,
+            "Pressure Handling": 8,
+            "Adaptability": 9,
+            "Competitiveness": 7,
+            "Coachability": 9,
+            "Leadership": 8,
+            "Role Clarity": 7
+        },
+        "sr": 82.5,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 9,
+            "Adaptability": 8,
+            "Competitiveness": 7,
+            "Coachability": 8,
+            "Leadership": 7,
+            "Role Clarity": 8
+        },
+        "sr": 80.0,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 9,
+            "Adaptability": 8,
+            "Competitiveness": 7,
+            "Coachability": 7,
+            "Leadership": 6,
+            "Role Clarity": 9
+        },
+        "sr": 78.75,
+        "classification": "Strong Prospect",
+        "recommendation": "Player is a strong prospect with room for improvement."
+    },
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 7,
+            "Adaptability": 9,
+            "Competitiveness": 8,
+            "Coachability": 7,
+            "Leadership": 9,
+            "Role Clarity": 8
+        },
+        "sr": 81.25,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 9,
+            "Adaptability": 8,
+            "Competitiveness": 7,
+            "Coachability": 8,
+            "Leadership": 9,
+            "Role Clarity": 8
+        },
+        "sr": 82.5,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 8,
+            "Adaptability": 9,
+            "Competitiveness": 8,
+            "Coachability": 9,
+            "Leadership": 8,
+            "Role Clarity": 7
+        },
+        "sr": 82.5,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 8,
+            "Decision Making": 7,
+            "Pressure Handling": 8,
+            "Adaptability": 7,
+            "Competitiveness": 8,
+            "Coachability": 7,
+            "Leadership": 8,
+            "Role Clarity": 7
+        },
+        "sr": 75.0,
+        "classification": "Strong Prospect",
+        "recommendation": "Player is a strong prospect with room for improvement."
+    },
+    {
+        "name": "ab",
+        "age": 17,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 9,
+            "Adaptability": 8,
+            "Competitiveness": 7,
+            "Coachability": 8,
+            "Leadership": 9,
+            "Role Clarity": 8
+        },
+        "sr": 82.5,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "ab",
+        "age": 1,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 10,
+            "Decision Making": 2,
+            "Pressure Handling": 3,
+            "Adaptability": 6,
+            "Competitiveness": 6,
+            "Coachability": 5,
+            "Leadership": 4,
+            "Role Clarity": 6
+        },
+        "sr": 52.5,
+        "classification": "Needs Improvement",
+        "recommendation": "Player needs significant improvement before progressing further."
+    },
+    {
+        "name": "ab",
+        "age": 19,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 9,
+            "Adaptability": 8,
+            "Competitiveness": 9,
+            "Coachability": 7,
+            "Leadership": 8,
+            "Role Clarity": 9
+        },
+        "sr": 83.75,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    },
+    {
+        "name": "ab",
+        "age": 5,
+        "role": "Batsman",
+        "scores": {
+            "Game Awareness": 6,
+            "Decision Making": 8,
+            "Pressure Handling": 9,
+            "Adaptability": 5,
+            "Competitiveness": 3,
+            "Coachability": 5,
+            "Leadership": 6,
+            "Role Clarity": 8
+        },
+        "sr": 62.5,
+        "classification": "Developing",
+        "recommendation": "Player requires structured development and monitoring."
+    },
+    {
+        "name": "ab",
+        "age": 1,
+        "role": "All-Rounder",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 9,
+            "Adaptability": 8,
+            "Competitiveness": 7,
+            "Coachability": 6,
+            "Leadership": 5,
+            "Role Clarity": 9
+        },
+        "sr": 76.25,
+        "classification": "Strong Prospect",
+        "recommendation": "Player is a strong prospect with room for improvement."
+    },
+    {
+        "name": "ab",
+        "age": 12,
+        "role": "All-Rounder",
+        "scores": {
+            "Game Awareness": 10,
+            "Decision Making": 8,
+            "Pressure Handling": 7,
+            "Adaptability": 9,
+            "Competitiveness": 6,
+            "Coachability": 4,
+            "Leadership": 6,
+            "Role Clarity": 2
+        },
+        "sr": 65.0,
+        "classification": "Developing",
+        "recommendation": "Player requires structured development and monitoring."
+    },
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "All-Rounder",
+        "scores": {
+            "Game Awareness": 1,
+            "Decision Making": 2,
+            "Pressure Handling": 3,
+            "Adaptability": 4,
+            "Competitiveness": 5,
+            "Coachability": 5,
+            "Leadership": 6,
+            "Role Clarity": 7
+        },
+        "sr": 41.25,
+        "classification": "Needs Improvement",
+        "recommendation": "Player needs significant improvement before progressing further."
+    },
+    {
+        "name": "ab",
+        "age": 18,
+        "role": "All-Rounder",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 7,
+            "Adaptability": 8,
+            "Competitiveness": 6,
+            "Coachability": 5,
+            "Leadership": 7,
+            "Role Clarity": 8
+        },
+        "sr": 72.5,
+        "classification": "Strong Prospect",
+        "recommendation": "Player is a strong prospect with room for improvement."
+    },
+    {
+        "name": "a",
+        "age": 1,
+        "role": "All-Rounder",
+        "scores": {
+            "Game Awareness": 9,
+            "Decision Making": 8,
+            "Pressure Handling": 7,
+            "Adaptability": 9,
+            "Competitiveness": 8,
+            "Coachability": 7,
+            "Leadership": 9,
+            "Role Clarity": 8
+        },
+        "sr": 81.25,
+        "classification": "High Potential",
+        "recommendation": "Player shows strong potential with minor areas for development."
+    }
+]

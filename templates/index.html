@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Player Scout Evaluation</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Player Scout Evaluation</h1>
+
+    <div class="confidence-box">
+        Form Confidence:
+        <span id="confidenceValue">0%</span>
+    </div>
+
+    <form method="POST" id="scoutForm">
+
+        <h2>Player Information</h2>
+
+        <label>Player Name</label>
+        <input type="text"
+        name="name"
+        required>
+
+        <label>Age</label>
+        <input type="number"
+        name="age"
+        min="1"
+        required>
+
+        <label>Primary Role</label>
+        <select name="role" required>
+
+            <option value="">
+                Select Role
+            </option>
+
+            <option>Batsman</option>
+            <option>Bowler</option>
+            <option>All-Rounder</option>
+            <option>Wicketkeeper</option>
+
+        </select>
+
+        <h2>Scout Evaluation (1–10)</h2>
+
+        <label>Game Awareness</label>
+        <input type="number"
+        name="game_awareness"
+        min="1"
+        max="10"
+        required>
+
+        <label>Decision Making</label>
+        <input type="number"
+        name="decision_making"
+        min="1"
+        max="10"
+        required>
+
+        <label>Pressure Handling</label>
+        <input type="number"
+        name="pressure_handling"
+        min="1"
+        max="10"
+        required>
+
+        <label>Adaptability</label>
+        <input type="number"
+        name="adaptability"
+        min="1"
+        max="10"
+        required>
+
+        <label>Competitiveness</label>
+        <input type="number"
+        name="competitiveness"
+        min="1"
+        max="10"
+        required>
+
+        <label>Coachability</label>
+        <input type="number"
+        name="coachability"
+        min="1"
+        max="10"
+        required>
+
+        <label>Leadership</label>
+        <input type="number"
+        name="leadership"
+        min="1"
+        max="10"
+        required>
+
+        <label>Role Clarity</label>
+        <input type="number"
+        name="role_clarity"
+        min="1"
+        max="10"
+        required>
+
+        <button type="submit">
+            Generate Scout Rating
+        </button>
+
+    </form>
+
+    {% if result %}
+
+    <div class="result-box"
+    id="pdfContent">
+
+        <h2>Scout Result</h2>
+
+        <p><strong>Name:</strong> {{ result.name }}</p>
+        <p><strong>Age:</strong> {{ result.age }}</p>
+        <p><strong>Role:</strong> {{ result.role }}</p>
+
+        <h3>Category Scores</h3>
+
+        <ul>
+
+            {% for key, value in result.scores.items() %}
+            <li>{{ key }} : {{ value }}</li>
+            {% endfor %}
+
+        </ul>
+
+        <h3>
+            Scout Rating:
+            {{ result.sr }}
+        </h3>
+
+        <h3>
+            Classification:
+            {{ result.classification }}
+        </h3>
+
+        <p>
+            {{ result.recommendation }}
+        </p>
+
+        <h3>Radar Chart</h3>
+
+        <div class="chart-container">
+
+            <canvas
+            id="radarChart">
+            </canvas>
+
+        </div>
+
+        <button
+        type="button"
+        id="pdfButton">
+
+            Download PDF
+
+        </button>
+
+    </div>
+
+    {% endif %}
+
+</div>
+
+{% if result %}
+<script>
+    const scoutScores =
+    {{ result.scores | tojson | safe }};
+</script>
+{% endif %}
+
+<script src="{{ url_for('static',
+filename='script.js') }}">
+</script>
+
+</body>
+</html>
